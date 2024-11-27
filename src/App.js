@@ -6,12 +6,14 @@ import { BrowserRouter as Router } from 'react-router-dom';
 import { motion } from 'framer-motion';
 
 const App = () => {
-  return <>
+  return (
+  <>
     <Router>
       <Header />
       <AnimRoutes />
     </Router>
-  </>;
+  </>
+  );
 };
 
 export default App;
