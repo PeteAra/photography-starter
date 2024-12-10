@@ -11,7 +11,7 @@ import { motion } from 'framer-motion';
 import { transition1 } from '../transitions';
 
 
-const Portfolio = () => {
+const Families = () => {
   return (
 
     <motion.section 
@@ -34,19 +34,12 @@ const Portfolio = () => {
             className='flex flex-col lg:items-start'
           >
 
-            <h1 className='h1'>Portfolio</h1>
+            <h1 className='h1'>Families</h1>
             <p className='mb-12 max-w-sm'>
               Lorem Ipsum is simply dummy text of the 
               printing and typesetting industry.
               <b> I love Pete what can I say I'm a hoot! </b>
               Blah blah blah I have a dog named Layla.
-              <br />
-              <br />
-              Lorem Ipsum has been the industry's 
-              standard dummy text ever since the
-                1500s, when an unknown printer took 
-                a galley of type and scrambled it to
-                make a type specimen book.
             </p>
             <Link to={'/contact'} className='btn mb-[30px]
             mx-auto lg:mx-0'>
@@ -97,4 +90,4 @@ const Portfolio = () => {
   );
 };
 
-export default Portfolio;
+export default Families;
